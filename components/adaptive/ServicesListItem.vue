@@ -1,14 +1,17 @@
 <template>
-    <article class="flex flex-col gap-y-8">
-        <div class="w-full h-[220px]">
-            <img :src="`/images/adaptive/${service.image}.png`" :alt="service.alt" class="image rounded-2xl">
+    <li
+        class="flex flex-col items-center w-full h-full gap-y-8 min-[1440px]:flex-row min-[1440px]:gap-x-[64px] min-[1440px]:h-[560px] min-[1440px]:even:flex-row-reverse">
+        <div class="w-full h-[220px] min-[1440px]:w-[800px] min-[1440px]:flex-shrink-0 min-[1440px]:h-full">
+            <img :src="`/images/adaptive/${service.image}.png`" :alt="service.alt"
+                class="w-full h-full object-cover rounded-2xl">
         </div>
-        <div class="flex flex-col gap-y-6">
-            <div class="flex flex-col gap-y-4">
-                <h2 class="text-[32px] leading-10 tracking-[-0.03em] text-[#F9FAFB]">
+        <div class="relative flex flex-col gap-y-6 min-[1440px]:gap-y-[48px] min-[1440px]:px-[48px] min-[1440px]:py-[30px]">
+            <div class="flex flex-col gap-y-4 min-[1440px]:gap-y-[24px]">
+                <h2
+                    class="text-[32px] leading-10 tracking-[-0.03em] text-[#F9FAFB] min-[1440px]:text-[48px] min-[1440px]:leading-[56px]">
                     {{ service.title }}
                 </h2>
-                <p class="text-lg leading-6 text-[#E5E7EB]">
+                <p class="text-lg leading-6 text-[#E5E7EB] min-[1440px]:text-[20px] min-[1440px]:leading-[30px]">
                     {{ service.description }}
                 </p>
             </div>
@@ -22,11 +25,15 @@
                     </svg>
                 </span>
             </a>
+            <span
+                class="absolute inline-block hidden min-[1440px]:block top-0 left-0 w-[45px] border-t border-l border-[#6B7280] rounded-tl-lg h-[45px] bg-transparent"></span>
+            <span
+                class="absolute inline-block hidden min-[1440px]:block bottom-0 right-0 w-[45px] border-b border-r rounded-br-lg border-[#6B7280] h-[45px] bg-transparent"></span>
         </div>
-    </article>
+    </li>
 </template>
 
-<script setup lang="ts">
+<script setup>
 
 defineProps({
     service: Object,

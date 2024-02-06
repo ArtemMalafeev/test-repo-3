@@ -5,9 +5,9 @@
             <div class="max-w-[950px] h-full mx-[25px] min-[950px]:mx-auto">
                 <div class="flex flex-col">
                     <div class="flex flex-col gap-y-[30px] pt-[20px] pb-[32px]">
-                        <div class="">
-                            <img class="image" src="/images/article/1.png" alt="Описание">
-                        </div>
+                        <figure class="article-figure">
+                            <img src="/images/article/1.png" alt="Описание">
+                        </figure>
 
                         <div class="flex flex-col gap-y-[50px]">
                             <h1 class="font-bold text-[2.25rem] font-black leading-[2.5rem] text-center">
@@ -34,7 +34,7 @@
                         </div>
                     </div>
 
-                    <section class="paragraph">
+                    <section class="article-paragraph">
                         <p>
                             В Петербурге в семье профессора архитектуры Николая Леонтьевича Бенуа и Камиллы Альбертовны
                             Кавос 3
@@ -56,15 +56,15 @@
                         </p>
                     </section>
 
-                    <figure class="figure figure-small">
-                        <img class="image" src="/images/article/2.png" alt="Описание">
+                    <figure class="article-figure article-figure-small">
+                        <img src="/images/article/2.png" alt="Описание">
                         <figcaption>
                             Источник: google.com. Александр Николаевич Бенуа. «Прогулки в любую погоду» (из серии «Последние
                             прогулки короля»). 1896 — 1898 год.
                         </figcaption>
                     </figure>
 
-                    <section class="paragraph">
+                    <section class="article-paragraph">
                         <p>Обосновавшись в Петербурге дед художника стал метрдотелем при дворе Павла I и женился на фрейлине
                             немецкого
                             происхождения Екатерине Андреевне Гроппе. Луи Бенуа был зажиточным петербуржцем, имел два
@@ -88,22 +88,22 @@
                             Бенуа, сын Джованни Кавоса — Катарино Кавос, в конце XVIII столетия приехал в Петербург и
                             руководил
                             частью
-                            Императорских театров. Именно Катарино Кавос стал родоначальником русской <a class="link"
-                                href="#">оперы</a> и создал первый
+                            Императорских театров. Именно Катарино Кавос стал родоначальником русской <a
+                                class="article-link" href="#">оперы</a> и создал первый
                             вариант
                             «Ивана Сусанина».
                         </p>
                     </section>
 
-                    <figure class="figure">
-                        <img class="image" src="/images/article/3.png" alt="Описание">
+                    <figure class="article-figure">
+                        <img src="/images/article/3.png" alt="Описание">
                         <figcaption>
                             Источник: google.com. Александр Николаевич Бенуа. «Кормление рыб» (из серии «Последние прогулки
                             короля»). 1897 год.
                         </figcaption>
                     </figure>
 
-                    <section class="paragraph">
+                    <section class="article-paragraph">
                         <p>
                             Дед Александра Бенуа — Альберт Катаринович Кавос — учился на математическом факультете
                             Падуанского
@@ -131,17 +131,18 @@
                         </p>
                     </section>
 
-                    <figure class="figure figure-small">
-                        <img class="image" src="/images/article/4.png" alt="Описание">
+                    <figure class="article-figure article-figure-small">
+                        <img src="/images/article/4.png" alt="Описание">
                         <figcaption>
                             Источник: google.com. Александр Николаевич Бенуа. Страница из «Азбуки в картинках Александра
                             Бенуа». 1904 год.
                         </figcaption>
                     </figure>
 
-                    <section class="paragraph">
+                    <section class="article-paragraph">
                         <p>
-                            С детства Бенуа страстно увлёкся <a class="link" href="#">театром</a>. Страсть была настолько
+                            С детства Бенуа страстно увлёкся <a class="article-link" href="#">театром</a>. Страсть была
+                            настолько
                             яркой и сильной, что переросла
                             в
                             крепкую
@@ -168,15 +169,15 @@
                         </p>
                     </section>
 
-                    <figure class="figure">
-                        <img class="image" src="/images/article/5.png" alt="Описание">
+                    <figure class="article-figure">
+                        <img src="/images/article/5.png" alt="Описание">
                         <figcaption>
                             Источник: google.com. Александр Николаевич Бенуа. «У бассейна Цереры» (из серии «Последние
                             прогулки короля»). 1897 год.
                         </figcaption>
                     </figure>
 
-                    <section class="paragraph">
+                    <section class="article-paragraph">
                         <p>
                             В период с 1890 по 1894 года Бенуа учился на юридическом факультете Петербургского университета,
                             а
@@ -205,14 +206,14 @@
                         </p>
                     </section>
 
-                    <figure class="figure figure-small">
-                        <img class="image" src="/images/article/6.png" alt="Описание">
+                    <figure class="article-figure article-figure-small">
+                        <img src="/images/article/6.png" alt="Описание">
                         <figcaption>
                             Источник: google.com. Александр Николаевич Бенуа. «Озеро Примель. Бретань.». 1905 год.
                         </figcaption>
                     </figure>
 
-                    <section class="paragraph">
+                    <section class="article-paragraph">
                         <p>
                             В 1894 году Александр Бенуа женился на Анне Кинд, знакомство с которой произошло ещё в
                             отроческие
@@ -252,14 +253,14 @@
                         </p>
                     </section>
 
-                    <figure class="figure">
-                        <img class="image" src="/images/article/7.png" alt="Описание">
+                    <figure class="article-figure">
+                        <img src="/images/article/7.png" alt="Описание">
                         <figcaption>
                             Источник: google.com. Александр Николаевич Бенуа. «Маскарад при Людовике XIV». 1898 год.
                         </figcaption>
                     </figure>
 
-                    <section class="paragraph">
+                    <section class="article-paragraph">
                         <p>
                             Величественный памятник культуры ушедшей эпохи Версаль — хранитель дворцовых тайн и истории,
                             произвёл на
@@ -296,14 +297,14 @@
                         </p>
                     </section>
 
-                    <figure class="figure figure-small">
-                        <img class="image" src="/images/article/8.png" alt="Описание">
+                    <figure class="article-figure article-figure-small">
+                        <img src="/images/article/8.png" alt="Описание">
                         <figcaption>
                             Источник: google.com. Александр Николаевич Бенуа. «Водный партер в Версале». 1905 год.
                         </figcaption>
                     </figure>
 
-                    <section class="paragraph">
+                    <section class="article-paragraph">
                         <p>
                             В 1898 году произошло ещё одно важное событие — петербургская выставка произведений русских и
                             финляндских
@@ -334,17 +335,33 @@
                             истории
                             русского искусства, используя никем не рассматриваемые ранее материалы. На этом прервём
                             повествование до
-                            следующего раза, когда расскажем о <a class="link" href="#">дальнейшем творчестве</a> и судьбе
+                            следующего раза, когда расскажем о <a class="article-link" href="#">дальнейшем творчестве</a> и
+                            судьбе
                             великого художника.
                         </p>
                     </section>
                 </div>
             </div>
+
+            <UiArrows>
+                <NuxtLink to="/adaptive">
+                    <svg class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                        <path
+                            d="M10 20A10 10 0 1 0 0 10a10 10 0 0 0 10 10zM8.711 4.3l5.7 5.766L8.7 15.711l-1.4-1.422 4.289-4.242-4.3-4.347z" />
+                    </svg>
+                </NuxtLink>
+                <NuxtLink to="/form">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                        <path
+                            d="M10 20A10 10 0 1 0 0 10a10 10 0 0 0 10 10zM8.711 4.3l5.7 5.766L8.7 15.711l-1.4-1.422 4.289-4.242-4.3-4.347z" />
+                    </svg>
+                </NuxtLink>
+            </UiArrows>
         </main>
         <footer class="mt-[30px] font-['Arial']">
             <div class="flex gap-x-[3px] justify-center items-center text-[.75rem] italic">
                 <span class="text-[#BBBBBB]">Автор:</span>
-                <a class="link"
+                <a class="article-link"
                     href="https://journal.tapigo.ru/articles/benua-ideolog-novoi-xudozestvennoi-epoxi#:~:text=%D0%90%D0%B2%D1%82%D0%BE%D1%80%3A-,%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%20%D0%A2%D0%B0%D0%BF%D0%B8%D0%B3%D0%BE">
                     Журнал Тапиго
                 </a>
@@ -354,35 +371,36 @@
 </template>
 
 <script lang="ts">
-
+import UiArrows from '~/components/UiArrows.vue';
 </script>
 
 <style scoped>
-.paragraph {
+.article-paragraph {
     @apply flex flex-col gap-y-[30px] w-[88%] m-auto;
 }
 
-.paragraph p {
+.article-paragraph p {
     @apply leading-[1.6rem];
 }
 
-.image {
-    @apply block w-full h-full object-cover rounded-lg;
-}
-
-.figure {
+.article-figure {
     @apply flex flex-col gap-y-[10px] my-[30px];
 }
 
-.figure-small {
-    @apply max-w-[600px] mx-auto;
+.article-figure img {
+    @apply block w-full h-full object-cover rounded-lg;
 }
 
-.figure figcaption {
+.article-figure figcaption {
     @apply text-[12px] text-[#BBBBBB] font-['Arial'] italic text-center;
 }
 
-.link {
+.article-figure-small {
+    @apply max-w-[600px] mx-auto;
+}
+
+
+.article-link {
     @apply text-[#0089ff] border-b border-[#b8d6fe] transition duration-150 ease-in hover:text-black hover:border-black;
 }
 </style>
