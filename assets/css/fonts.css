@@ -1,0 +1,29 @@
+/* Arboria */
+
+@font-face {
+    font-family: 'Arboria-Book';
+    font-display: swap;
+    src: url('/fonts/Arboria/Arboria-Book.ttf');
+}
+
+@font-face {
+    font-family: 'Arboria-Medium';
+    font-display: swap;
+    src: url('/fonts/Arboria/Arboria-Medium.ttf');
+}
+
+/* Roboto */
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-display: swap;
+    src: url('/fonts/Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/Roboto/Roboto-Regular.ttf');
+}
